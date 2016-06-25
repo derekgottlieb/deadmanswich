@@ -1,0 +1,2 @@
+auth_username: username-for-basic-auth-in-this-app
+auth_password: password-for-basic-auth-in-this-app
