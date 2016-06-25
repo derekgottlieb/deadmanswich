@@ -8,6 +8,23 @@ class DeadManWichApp < Sinatra::Base
     username == CONFIG.fetch('auth_username') && password == CONFIG.fetch('auth_password')
   end
 
+  # Get a list of switches
+  get '/' do
+
+  end
+  
+  # Create a new switch
   post '/' do
+
+  end
+
+  # Get info about a switch
+  get '/:id' do
+
+  end
+
+  # Record a checkin for a switch
+  get '/:id/ping' do
+
   end
 end
